@@ -13,7 +13,7 @@ service cloud.firestore {
     // all client requests to your Firestore database will be denied until you Update
     // your rules
     match /transactions/{document=**} {
-      //allow read, write; it means that any user can read and create/delete/update documents
+      //allow read, write; t means that any user can read and create/delete/update documents
       //allow read, create, delete; //it means that user only can read, create and delete docs
       
       //only auth user
